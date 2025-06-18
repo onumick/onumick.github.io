@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey - Cybersecurity Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- JetBrains Mono Font -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Component -->
+    <div id="navbar-container"></div>
+
+    <div class="container" style="margin-top: 100px;">
+        <section id="journey-section" class="fade-in">
+            <div class="section-title">
+                <h2>MY JOURNEY</h2>
+            </div>
+            <p class="section-description">
+                Welcome! Here, I share my experiences, milestones, and reflections as I navigate the dynamic world of computer science and cybersecurity.
+            </p>
+            
+            <div class="timeline-container mt-5">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>The Spark</h3>
+                        <p>After my Facebook account was hacked, I became driven to understand how to protect myself and others, and to uncover how the attack was done.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>First Concepts</h3>
+                        <p>Took a security course as part of my degree. Learned that security is not only about protection but also about availability, as explained by the CIA triad.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Hands-On Practice</h3>
+                        <p>Built a personal lab in VMware using Metasploitable, Windows 10 and Kali. Practiced offensive techniques and realized the critical role of a properly configured firewall.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Skill Sharpening</h3>
+                        <p>Completed Bandit and Natas challenges on OverTheWire, strengthening my practical knowledge of Linux and web security fundamentals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 Jan-May</div>
+                    <div class="timeline-content">
+                        <h3>Certifying the Knowledge</h3>
+                        <p>Finished all 10 OPSWAT Associate certifications, reinforcing my foundational expertise in security technologies.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">June-Now</div>
+                    <div class="timeline-content">
+                        <h3>Expanding Horizons</h3>
+                        <p>Currently focusing on cloud security to align with evolving industry demands and further develop my practical capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reflections" class="fade-in mt-5 pt-5">
+            <div class="section-title">
+                <h2>REFLECTIONS & FUTURE GOALS</h2>
+            </div>
+            
+            <div class="code-block">
+                const myGoals = {
+                  shortTerm: ['Complete advanced certifications', 'Build a personal security lab', 'Contribute to open-source security tools'],
+                  longTerm: ['Specialize in threat intelligence', 'Lead security teams', 'Mentor new cybersecurity students'],
+                  current: {
+                    focus: 'Balancing theoretical knowledge with practical applications',
+                    philosophy: 'Security is not a product, but a process'
+                  }
+                };
+            </div>
+            
+            <p class="mt-4">
+                This journey has been one of continuous learning and adaptation. The ever-evolving landscape of cybersecurity means there's always something new to discover. My goal is to contribute meaningfully to creating a safer digital world, focusing on areas like threat intelligence and secure software development. I am always eager to connect with fellow enthusiasts and professionals in the field!
+            </p>
+            
+            <div class="skills-container mt-5">
+                <h3 class="mb-4">Skills Developed</h3>
+                <div class="skill-item">Network Security</div>
+                <div class="skill-item">Penetration Testing</div>
+                <div class="skill-item">Security Analysis</div>
+                <div class="skill-item">Vulnerability Assessment</div>
+                <div class="skill-item">Incident Response</div>
+                <div class="skill-item">Malware Analysis</div>
+                <div class="skill-item">Digital Forensics</div>
+                <div class="skill-item">Cryptography</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Component -->
+    <div id="footer-container"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../assets/js/main.js"></script>
+    
+    <script>
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.fade-in');
+            
+            sections.forEach(section => {
+                section.style.opacity = 1;
+                section.style.transform = 'translateY(0)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+        });
+    </script>
+</body>
+</html>

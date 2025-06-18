@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Cybersecurity Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- JetBrains Mono Font -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Component -->
+    <div id="navbar-container"></div>
+
+    <div class="container" style="margin-top: 100px;">
+        <section id="services-section" class="fade-in">
+            <div class="section-title">
+                <h2>SERVICES OFFERED</h2>
+            </div>
+            <p class="section-description">
+                I offer various services related to cybersecurity, including tutoring and consulting. 
+                Each service is tailored to meet specific needs and delivered with professional expertise.
+            </p>
+            <div id="services-cards" class="services-grid">
+                <!-- Services will be dynamically loaded here by main.js -->
+            </div>
+            
+            <div class="mt-5 pt-4">
+                <h3>Need a custom service?</h3>
+                <p>Contact me for specialized cybersecurity solutions tailored to your specific requirements.</p>
+                <a href="contact.html" class="btn btn-primary mt-3">GET IN TOUCH</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Component -->
+    <div id="footer-container"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../assets/js/main.js"></script>
+    
+    <script>
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.fade-in');
+            
+            sections.forEach(section => {
+                section.style.opacity = 1;
+                section.style.transform = 'translateY(0)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+        });
+    </script>
+</body>
+</html>

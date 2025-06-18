@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-body">
+        <div class="card-icon">
+            <img src="{{logo}}" alt="{{name}} Logo" style="max-height: 60px; object-fit: contain;">
+        </div>
+        <h3 class="card-title">{{name}}</h3>
+        <p class="card-text">{{description}}</p>
+        {{#if pricing}}
+        <p class="service-price">{{pricing}}</p>
+        {{/if}}
+        <div class="card-footer">
+            {{#if link}}
+            <a href="{{link}}" class="btn btn-outline" target="_blank">Learn More</a>
+            {{/if}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Wireshark",
+        "description": "A network protocol analyzer that allows users to capture and interactively browse traffic on a computer network.",
+        "link": "https://www.wireshark.org/",
+        "logo": "../assets/images/wireshark.png"
+    },
+    {
+        "name": "Metasploit",
+        "description": "A penetration testing framework that helps security professionals find and exploit vulnerabilities in systems.",
+        "link": "https://www.metasploit.com/",
+        "logo": "../assets/images/metasploit.png"
+    },
+    {
+        "name": "Nmap",
+        "description": "A network scanning tool used to discover hosts and services on a computer network by sending packets and analyzing the responses.",
+        "link": "https://nmap.org/",
+        "logo": "../assets/images/nmap.png"
+    },
+    {
+        "name": "Burp Suite",
+        "description": "An integrated platform for performing security testing of web applications, providing tools for scanning, crawling, and exploiting vulnerabilities.",
+        "link": "https://portswigger.net/burp",
+        "logo": "../assets/images/burp.png"
+    },
+    {
+        "name": "Kali Linux",
+        "description": "A Debian-based Linux distribution aimed at advanced penetration testing and security auditing.",
+        "link": "https://www.kali.org/",
+        "logo": "../assets/images/kali.png"
+    },
+    {
+        "name": "OWASP ZAP",
+        "description": "An open-source web application security scanner that helps find security vulnerabilities in web applications during development and testing.",
+        "link": "https://www.zaproxy.org/",
+        "logo": "../assets/images/zap.png"
+    },
+    {
+        "name": "Splunk",
+        "description": "A software platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.",
+        "link": "https://www.splunk.com/",
+        "logo": "../assets/images/splunk.png"
+    },
+    {
+        "name": "Snort",
+        "description": "An open-source intrusion detection system (IDS) and intrusion prevention system (IPS) capable of real-time traffic analysis and packet logging.",
+        "link": "https://www.snort.org/",
+        "logo": "../assets/images/snort.png"
+    }
+]

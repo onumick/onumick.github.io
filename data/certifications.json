@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Certified Ethical Hacker (CEH)",
+    "logo": "../assets/images/ceh-logo.png",
+    "link": "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
+  },
+  {
+    "name": "CompTIA Security+",
+    "logo": "../assets/images/security-plus-logo.png",
+    "link": "https://www.comptia.org/certifications/security"
+  },
+  {
+    "name": "Certified Information Systems Security Professional (CISSP)",
+    "logo": "../assets/images/cissp-logo.png",
+    "link": "https://www.isc2.org/Certifications/CISSP"
+  },
+  {
+    "name": "Offensive Security Certified Professional (OSCP)",
+    "logo": "../assets/images/oscp-logo.png",
+    "link": "https://www.offensive-security.com/pwk-oscp/"
+  },
+  {
+    "name": "Google Cloud Professional Cloud Security Engineer",
+    "logo": "../assets/images/gcp-security-logo.png",
+    "link": "https://cloud.google.com/certification/cloud-security-engineer"
+  }
+]

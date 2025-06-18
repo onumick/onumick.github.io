@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Cybersecurity Tutoring",
+        "description": "One-on-one tutoring sessions to help students understand cybersecurity concepts and practices.",
+        "pricing": "20-50 USD per hour"
+    },
+    {
+        "name": "Security Assessment Services",
+        "description": "Comprehensive security assessments for small businesses to identify vulnerabilities and recommend solutions.",
+        "pricing": "100-200 USD per assessment"
+    },
+    {
+        "name": "Incident Response Consulting",
+        "description": "Consulting services to help organizations respond to and recover from cybersecurity incidents.",
+        "pricing": "100-320 USD per hour"
+    },
+    {
+        "name": "Workshops and Training",
+        "description": "Interactive workshops on various cybersecurity topics, tailored for different skill levels.",
+        "pricing": "140-300 USD per workshop"
+    }
+]
