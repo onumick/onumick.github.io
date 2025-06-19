@@ -138,14 +138,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Determine URL prefix once, outside the loop
                 let postUrlPrefix = '';
-                const path = window.location.pathname;
-
-                if (path.endsWith('index.html') || path === '/' || path === '') {
+                if (window.location.pathname.endsWith('index.html')) {
                     postUrlPrefix = '/pages/blog/';
-                } else if (path.endsWith('blog.html')) {
+                } else if (window.location.pathname.endsWith('blog.html')) {
                     postUrlPrefix = 'blog/';
                 }
-
 
                 // Build all cards in memory first
                 data.forEach(post => {
